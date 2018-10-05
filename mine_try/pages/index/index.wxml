@@ -1,5 +1,28 @@
 <!--index.wxml-->
 <view class="container">
+<view class='icon-box'>
+<icon class='icon-box-image' type='info' size='50'></icon>
+<view class='icon-box-container'>
+<view class='icon-box-title'>提示</view>
+<view class='icon-box-desc'>用于表示信息提示</view>
+</view>
+</view>
+
+<view class='icon-box'>
+<icon class='icon-box-image' type='warn' size='50' color='red'></icon>
+<view class='icon-box-container'>
+<view class='icon-box-title'>提示</view>
+<view class='icon-box-desc'>用于表示警告</view>
+</view>
+</view>
+<view class='icon-box'>
+<icon class='icon-box-image' type='waiting' size='50'></icon>
+<view class='icon-box-container'>
+<view class='icon-box-title'>提示</view>
+<view class='icon-box-desc'>用于表示等待</view>
+</view>
+</view>
+
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

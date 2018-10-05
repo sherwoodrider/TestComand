@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/buy/buy",
-    "pages/books/books"
+    "pages/books/books",
+    "pages/scrollview/scrollview",
+    "pages/swiper/swiper"
   ],
   "window":{
     "backgroundTextStyle":"light",

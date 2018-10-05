@@ -1,0 +1,19 @@
+<!--pages/swiper/swiper.wxml-->
+<text>pages/swiper/swiper.wxml</text>
+<view class='section'>
+<view class='page-body'>
+<view class='page-section page-section-spacing'></view>
+<swiper
+indicator-dots='{{indicatorDots}}'
+autoplay='{{autoplay}}'
+interval='{{interval}}'
+current='1'
+duration='{{duration}}'
+bindchange='change'
+bindanimationfinish='aninationfinish'
+>
+
+</swiper>
+</view>
+
+</view>
